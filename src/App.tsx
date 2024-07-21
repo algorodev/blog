@@ -1,6 +1,8 @@
+import Header from './components/Header'
+
 const App = () => (
 	<>
-		hello world
+		<Header/>
 	</>
 )
 

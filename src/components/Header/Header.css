@@ -1,0 +1,17 @@
+header {
+	display:         flex;
+	justify-content: center;
+	align-items:     center;
+	padding:         3rem 0;
+}
+
+header > nav > .link {
+	margin:      0 1rem;
+	font-size:   18px;
+	font-weight: bold;
+	color:       var(--color-text-secondary);
+}
+
+header > nav > .link.active {
+	color: var(--color-primary);
+}
