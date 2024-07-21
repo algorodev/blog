@@ -1,0 +1,18 @@
+.link {
+	color:           var(--color-primary-dark);
+	text-decoration: none;
+	transition:      color 0.3s;
+
+	&:hover {
+		color:           var(--color-primary);
+		text-decoration: underline;
+	}
+}
+
+.dark .link {
+	color: var(--color-secondary-dark);
+
+	&:hover {
+		color: var(--color-secondary);
+	}
+}
