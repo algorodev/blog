@@ -1,0 +1,28 @@
+:root {
+	--color-primary:             #4b6dc4;
+	--color-primary-light:       #7a94e0;
+	--color-primary-dark:        #3a54a0;
+	--color-secondary:           #f2dc38;
+	--color-secondary-light:     #f7e97a;
+	--color-secondary-dark:      #c2a72b;
+	--color-text-primary:        #333333;
+	--color-text-secondary:      #666666;
+	--color-text-primary-dark:   #f9f9f9;
+	--color-text-secondary-dark: #cccccc;
+	--color-background-light:    #f9f9f9;
+	--color-background-dark:     #1a1a1a;
+	--color-border-light:        #e0e0e0;
+	--color-border-dark:         #4b4b4b;
+	--color-shadow-light:        rgba(0, 0, 0, 0.1);
+	--color-shadow-dark:         rgba(0, 0, 0, 0.5);
+	--color-link:                var(--color-primary-dark);
+	--color-link-hover:          var(--color-primary);
+	--color-link-dark:           var(--color-secondary-dark);
+	--color-link-dark-hover:     var(--color-secondary);
+	--color-button:              var(--color-primary-dark);
+	--color-button-hover:        var(--color-primary);
+	--color-button-dark:         var(--color-secondary-dark);
+	--color-button-dark-hover:   var(--color-secondary);
+	--font-title:                'Roboto';
+	--font-text:                 'Open Sans';
+}
