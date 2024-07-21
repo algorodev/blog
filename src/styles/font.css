@@ -1,0 +1,55 @@
+/* TODO: REPLACE STATIC FONT-SIZE */
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+	color:       var(--color-text-primary);
+	font-family: var(--font-title), sans-serif;
+}
+
+.dark h1, .dark h2, .dark h3,
+.dark h4, .dark h5, .dark h6 {
+	color: var(--color-text-primary-dark);
+}
+
+body {
+	color:       var(--color-text-secondary);
+	font-size:   16px;
+	line-height: 1.5;
+	font-family: var(--font-text), sans-serif;
+}
+
+.dark body {
+	color: var(--color-text-secondary-dark);
+}
+
+small {
+	font-size: 14px;
+}
+
+button, input, select, textarea {
+	color:       var(--color-text-primary-dark);
+	font-family: var(--font-text), sans-serif;
+}
